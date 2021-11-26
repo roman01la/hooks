@@ -5,11 +5,11 @@ React Hooks for ClojureScript
 ### Add to `deps.edn` via Git deps
 ```clojure
 {hooks/hooks {:git/url "git@github.com:roman01la/hooks.git"
-              :sha "3a137bbe21782c210c2874aece012ac52a51b2e9"}}
+              :sha "b0c80acb41570e5417eadcba3e5b63b1a8b8e725"}}
 ```
 ### Install NPM deps
 ```shell
-yarn add use-sync-external-store@1.0.0-beta-fdc1d617a-20211118 --save-dev
+yarn add react-dom use-sync-external-store@1.0.0-beta-fdc1d617a-20211118 --save-dev
 ```
 
 ## Hooks
