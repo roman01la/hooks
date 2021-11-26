@@ -1,5 +1,6 @@
 (ns hooks.core
-  (:require ["use-sync-external-store/shim/with-selector" :refer [useSyncExternalStoreWithSelector]]))
+  (:require ["use-sync-external-store/shim/with-selector" :refer [useSyncExternalStoreWithSelector]]
+            [react-dom]))
 
 (defn- setup-batched-updates-listener [^js ref]
   ;; Adding an atom holding a set of listeners on a ref if it wasn't added yet
