@@ -9,7 +9,7 @@ React Hooks for ClojureScript
 ```
 ### Install NPM deps
 ```shell
-yarn add react-dom use-sync-external-store@1.0.0-beta-fdc1d617a-20211118 --save-dev
+yarn add react react-dom use-sync-external-store@1.0.0-beta-fdc1d617a-20211118 --save-dev
 ```
 
 ## Hooks
