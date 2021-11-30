@@ -5,7 +5,7 @@ React Hooks for ClojureScript
 ### Add to `deps.edn` via Git deps
 ```clojure
 {hooks/hooks {:git/url "git@github.com:roman01la/hooks.git"
-              :sha "b0c80acb41570e5417eadcba3e5b63b1a8b8e725"}}
+              :sha "1a98408280892da1abebde206b5ca2444aced1b3"}}
 ```
 ### Install NPM deps
 ```shell
