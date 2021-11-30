@@ -14,9 +14,9 @@ yarn add react react-dom use-sync-external-store@1.0.0-beta-fdc1d617a-20211118 -
 
 ## Hooks
 
-### `use-atom`
+### `hooks.core/use-atom`
 ```clojure
-(defonce num (atom 0)) ;; or any other Atom-like datatype
+(defonce num (atom 0)) ;; or Reagent's RAtom or any other Atom-like datatype
 
 (defn button []
   (let [v (hooks.core/use-atom num)]
@@ -24,11 +24,10 @@ yarn add react react-dom use-sync-external-store@1.0.0-beta-fdc1d617a-20211118 -
      v]))
 ```
 
-### `use-subscribe` (re-frame)
-This is just a shortcut for `(hooks.core/use-atom (rf/subscribe [:app/num]))`
+### `hooks.reagent/use-subscribe`
 ```clojure
 (def use-subscribe
-  (hooks.core/create-use-subscribe rf/subscribe))
+  (hooks.reagent/create-use-subscribe rf/subscribe))
 
 ;; Why `create-use-subscribe`?
 ;; because you may have your own, enhanced `subscribe`
